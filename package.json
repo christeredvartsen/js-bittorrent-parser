@@ -1,0 +1,31 @@
+{
+  "name": "bittorrent-parser",
+  "version": "0.0.0",
+  "description": "Module for encoding/decoding data to/from the BitTorrent format.",
+  "main": "bittorrent-parser.js",
+  "scripts": {
+    "test": "npm run lint && mocha tests",
+    "lint": "eslint lib/ *.js tests/ && echo Lint passed."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christeredvartsen/js-bittorrent-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/christeredvartsen/js-bittorrent-parser/issues"
+  },
+  "keywords": [
+    "bittorrent",
+    "parser",
+    "encoder",
+    "decoder"
+  ],
+  "author": "Christer Edvartsen <cogo@starzinger.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0",
+    "assert": "^1.3.0",
+    "eslint": "^2.3.0"
+  }
+}
