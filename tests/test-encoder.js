@@ -78,8 +78,7 @@ describe('Encode dictionary', () => {
 
 describe('Encode variable', () => {
     it('Correctly encodes variables', () => {
-        values = integerValues + stringValues + listValues + dictionaryValues;
-        values.forEach((test) => {
+        integerValues.concat(stringValues, listValues, dictionaryValues).forEach((test) => {
             assert.strictEqual(encoder.encode(test.value), test.encoded);
         });
     });
