@@ -1,4 +1,4 @@
-# BitTorrent parser
+# Node.js BitTorrent parser module
 [![Current build Status](https://secure.travis-ci.org/christeredvartsen/js-bittorrent-parser.png)](http://travis-ci.org/christeredvartsen/js-bittorrent-parser)
 
 ## License
