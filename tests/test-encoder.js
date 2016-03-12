@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-var encoder = require('../lib/encoder.js');
+var encoder = require('../lib/encoder');
 
 var integerValues = [
     { value: -1, encoded: 'i-1e' },
