@@ -4,7 +4,7 @@
   "description": "Module for encoding/decoding data to/from the BitTorrent format.",
   "main": "bittorrent-parser.js",
   "scripts": {
-    "test": "npm run lint && mocha tests",
+    "test": "npm run lint && istanbul cover _mocha tests",
     "lint": "eslint lib/ *.js tests/ && echo Lint passed."
   },
   "repository": {
@@ -23,10 +23,11 @@
   "author": "Christer Edvartsen <cogo@starzinger.net>",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^2.4.5",
-    "supertest": "^1.2.0",
     "assert": "^1.3.0",
-    "eslint": "^2.3.0"
+    "eslint": "^2.3.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
   },
   "dependencies": {
     "is-plain-object": "^2.0.1"
