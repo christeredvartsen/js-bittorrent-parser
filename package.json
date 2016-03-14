@@ -1,6 +1,6 @@
 {
   "name": "bittorrent-parser",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Module for encoding/decoding data to/from the BitTorrent format.",
   "main": "bittorrent-parser",
   "scripts": {
@@ -21,6 +21,7 @@
     "encoder",
     "decoder"
   ],
+  "tonicExampleFilename": "examples/tonic.js",
   "author": "Christer Edvartsen <cogo@starzinger.net>",
   "license": "MIT",
   "devDependencies": {
