@@ -2,4 +2,4 @@
 
 exports.encoder = require('./lib/encoder');
 exports.decoder = require('./lib/decoder');
-exports.version = require('./package.json').version
+exports.version = require('./package.json').version;
