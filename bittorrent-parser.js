@@ -1,6 +1,5 @@
 'use strict';
 
-module.exports = {
-    encoder: require('./lib/encoder'),
-    decoder: require('./lib/decoder')
-};
+exports.encoder = require('./lib/encoder');
+exports.decoder = require('./lib/decoder');
+exports.version = require('./package.json').version
